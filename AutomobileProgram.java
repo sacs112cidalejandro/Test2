@@ -46,7 +46,7 @@ public class AutomobileProgram
 	public int distance(){
 		counter = cycles;
 		while (counter !=0){
-			currentCycle = (currentGear*15)/30;
+			currentCycle = (currentGear*10)/60;
 			totalDistance = totalDistance + currentCycle;
 			counter--;
 		}
