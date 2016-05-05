@@ -127,12 +127,12 @@ public class AutomobileProgram
 		currentGear=v;
 	}
 	public int speed(){
-		return currentGear*15;
+		return currentGear*10;
 	}
 	public int distance(){
 		counter = cycles;
 		while (counter !=0){
-			currentCycle = (currentGear*15)/30;
+			currentCycle = (currentGear*10)/60;
 			totalDistance = totalDistance + currentCycle;
 			counter--;
 		}
